@@ -11,8 +11,9 @@ setup_args = dict(
     description="Dnsxone SDK package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Maliaotw/pyesxi.git",
-    packages=setuptools.find_packages(),
+    url="https://github.com/Maliaotw/pydnsxone.git",
+    package_dir={'pydnsxone': 'pydnsxone'},
+    packages=["pydnsxone"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
