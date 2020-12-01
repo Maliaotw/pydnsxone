@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup_args = dict(
     name="pydnsxone",
-    version="0.0.1",
+    version="0.0.2",
     author="Maliao",
     author_email="maliaotw@gmail.com",
     description="Dnsxone SDK package",
